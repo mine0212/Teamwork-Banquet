@@ -7,7 +7,7 @@ int main() {
     FILE *list1;
     FILE *list2;
     FILE *enemies;//打开文件
-    printf("请输入宴会名单文件名称：");
+    printf("Please enter the name of the banquet list file：");
     scanf("%s", user);//得到用户输入
     if (!strcmp(user, "A.txt"))//判断用户输入
         list = fopen("../Name-list/A.txt", "r");
